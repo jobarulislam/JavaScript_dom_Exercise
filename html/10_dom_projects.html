@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/10_dom_projects.js" defer></script>
+    <link rel="stylesheet" href="../css/10_dom_projects.css" >
+    <title>Dom Projects</title>
+</head>
+<body>
+   <p>YouTube Subscribe button</p>
+   <button onclick="subscribe();" class="Subscribe">Subscribe</button>
+
+   <p>Amazon Shipping Calculator</p>
+   <p>Orders under $40 = +$10 Shipping.</p>
+   <p>Orders over $40 = FREE Shipping.</p>
+   <input class="input" placeholder="cost of orders" type="text" onkeydown="eventWork(event);">
+   <button onclick="calculate()" class="calculate">Calculate</button>
+   <p class="result"></p>
+
+</body>
+</html>
