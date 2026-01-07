@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    padding-bottom: 110px;
+}
+.Subscribe{
+ border : none;
+ background-color:red;
+ color: white;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ border-radius: 20px;
+ font-weight: 800;
+ cursor: pointer;
+ margin-bottom: 30px;
+}
+.Subscribed{
+    background-color: black;
+    color: white;
+}
+.calculate{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.input{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 100px;
+}
